@@ -1,6 +1,6 @@
 import unittest
 from threadurl import ThreadUrl
-from os.path import dirname
+from os.path import dirname,realpath
 
 class testThreadUrl(unittest.TestCase):
 
