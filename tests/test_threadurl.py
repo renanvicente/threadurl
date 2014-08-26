@@ -1,5 +1,6 @@
 import unittest
 from threadurl import ThreadUrl
+from os.path import dirname
 
 class testThreadUrl(unittest.TestCase):
 
