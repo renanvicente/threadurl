@@ -12,7 +12,7 @@ class testThreadUrl(unittest.TestCase):
 		self.threadurl.trigger(urls)
 
 	def test_url_list_from_file(self):
-		urls = open('test_file.txt','r')
+		urls = open(dirname(realpath(__file__)) + '/test_file.txt','r')
 		self.threadurl.trigger(urls)
 		
 	def test_method(self):
